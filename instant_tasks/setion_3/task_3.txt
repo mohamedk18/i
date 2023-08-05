@@ -1,0 +1,13 @@
+what is the solid principle..?
+
+
+
+(S) Single-responsibility Principle (S): A class should have one and only one reason to change, meaning that a class should have only one job2.
+
+(O) Open-closed Principle (O): Software entities should be open for extension but closed for modification1.
+
+(L) Liskov Substitution Principle (L): Functions that use pointers or references to base classes must be able to use objects of derived classes without knowing it1.
+
+(I) Interface Segregation Principle (I): Clients should not be forced to depend upon interfaces that they do not use1.
+
+(D) Dependency Inversion Principle (D): Depend upon abstractions, not concretions

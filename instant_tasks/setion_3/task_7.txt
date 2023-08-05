@@ -1,0 +1,12 @@
+3 scheduling techniques in operating system....?
+
+First-Come, First-Served (FCFS)
+
+
+
+Shortest Job First (SJF)
+
+
+
+
+Round Robin

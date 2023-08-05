@@ -1,0 +1,23 @@
+what is fragmentation in operating system...?
+
+
+Fragmentation is an issue that can occur in operating systems where processes are loaded and unloaded from memory, causing free space to become fragmented.
+
+This can result in a situation where a process cannot be allocated to a memory block due to its small size, leaving the memory blocks unused.
+
+There are two main types of fragmentation: internal and external fragmentation. Internal fragmentation occurs when there is unused space within a memory block.
+
+For example, if a system allocates a 64KB block of memory to store a file that is only 40KB in size, that block will contain 24KB of internal fragmentation.
+
+This can occur when the system employs a fixed-size block allocation method.
+
+External fragmentation occurs when a storage medium, such as a hard disk or solid-state drive, has many small blocks of free space scattered throughout it.
+
+This can happen when a system frequently creates and deletes files, leaving many small blocks of free space on the medium. When the system needs to store a new file, it may be unable to find a single contiguous block of free space large enough to store the file and must instead store the file in multiple smaller blocks.
+
+This can cause external fragmentation and performance problems when accessing the file.
+
+Fragmentation can significantly impact the performance of an operating system by slowing down the read and write speed of the disk. 
+
+As the disk head has to move to different locations to access the fragments of a file, the access time increases, reducing the overall speed of the system.
+

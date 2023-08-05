@@ -1,0 +1,20 @@
+Types architecture pattern and Systems?
+
+There are several types of software architecture patterns that are commonly used to organize the components in software architecture.
+ Some of the most important and commonly used patterns include:
+
+-1) Layered Pattern: This pattern separates components into layers of subtasks, arranged one above another.
+  Each layer has unique tasks to do and all the layers are independent of one another.
+  Since each layer is independent, one can modify the code inside a layer without affecting others.
+
+-2) Client-Server Pattern: This pattern has two major entities: a server and multiple clients. The server has resources (data, files or services) and a client requests server
+  for a particular resource.
+  Then the server processes the request and responds back accordingly.
+
+-3) Event-Driven Pattern: In this pattern, services (operations) of the software are triggered by events.
+
+-4) Microkernel Pattern: This pattern is based on a small operating system kernel that provides only basic services, while other services are built on top of it in user space.
+
+-5) Microservices Pattern: This pattern structures an application as a collection of loosely coupled services, which implement business capabilities.
+
+Each pattern organizes the components differently for solving a specific problem in software architectures. The best choice depends on the specific needs of your project and

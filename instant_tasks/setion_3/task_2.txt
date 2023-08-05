@@ -1,0 +1,10 @@
+what is gui library in python that uses drag and drop ?
+
+In Python, there are several libraries that provide drag and drop functionality for building GUIs. One such library is the tkinter.dnd module, which provides drag-and-drop support for objects within a single application, within the same window or between windows1. To enable an object to be dragged, you must create an event binding for it that starts the drag-and-drop process. Typically, you bind a ButtonPress event to a callback function that you write. The function should call dnd_start(), where source is the object to be dragged, and event is the event that invoked the call (the argument to your callback function).
+
+Another option is to use a GUI builder that provides drag-and-drop functionality. For example, PyQt is a popular Python binding of the cross-platform GUI toolkit Qt.
+It has its own drag-and-drop interface named Qt Designer2. When you create a Python GUI in Qt Designer, it produces a special XML format-based file with a .ui extension.
+You can just import this .ui extension file into your existing Python project or you can convert this .ui file to a Python .py file format2.
+
+
+
